@@ -1,0 +1,77 @@
+.birthday-page{
+padding-top: 20px;
+min-height: 500px;
+background-color: var(--bag-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.birthday-page h1{
+text-align: center;
+font-size: 28px;
+color: var(--face-color);
+font-weight: 400;
+line-height: normal;
+}
+.birthday-page p{
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+.bd-form{
+text-align: right;
+font-weight: 700;
+font-size: 13px;
+margin-top: 50px;
+margin-bottom: 5px;
+width: 120%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center
+}
+
+.data{
+width: 30%;
+display: flex;
+justify-content: center;
+box-shadow: none !important;
+border: 1.5px solid silver !important;
+}
+.data:hover{
+border: 1.5px solid rgba(106, 109, 114, 0.25) !important;
+}
+.date-birthday{
+font-size: 16px;
+font-weight: 600;
+}
+.date-births{
+display:flex;
+justify-content: center;
+align-items: center;
+column-gap: 10px !important;
+margin-bottom: 50px;
+}
+
+.input-births{
+width: 20%;
+height: 40px;
+box-shadow: none !important;
+border: 1.5px solid silver !important;
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 55px;
+}
+
+.subscribe:hover{
+background-color:rgb(207,38,38);
+border: 1px solid; 
+} 

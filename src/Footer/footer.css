@@ -1,0 +1,147 @@
+.all-footer{
+    background-color: var(--footer-color) !important;
+    border-top: 3em solid #000;
+}
+
+
+/* upper footer*/
+/* part 1*/
+
+.info{
+    color: var(--black-color) !important; 
+    padding: 50px 0 30px;
+}
+.question{
+font-size: 20px;
+min-height: 1px;
+margin-bottom: 0;
+font-weight: 800;
+}
+.facbook{
+    padding-top: 25px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.gmail{
+    font-weight: 600;
+}
+.facbook a{
+    color: var(--blue-color) !important;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.input{
+    direction: ltr !important; 
+}
+.login{
+    text-align: center;
+    background-color: var(--black-color);
+    color: var(--main-color);
+}
+.enter-mail{
+    text-align: center;
+    box-shadow: none !important;
+}
+.birthday{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.birthday span{
+    color: var(--blue-color);
+}
+/*part 2*/
+.section{
+    padding-bottom: 40px;
+    padding: 50px 15px 40px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.branch{
+    line-height: 65%;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+/*part 3*/
+.send{
+font-size: 22px;
+font-weight: 400;
+padding: 50px 15px 40px;
+padding-bottom: 40px;
+}
+.phone{
+line-height:70%;
+font-size: 20px;
+padding-right: 15px;
+}
+.send-gmail{
+line-height: 70%;
+font-size: 20px;
+padding-right: 15px;
+}
+.send-gmail:hover{
+    color: var(--blue-color);
+}
+
+/*part 4*/
+.orisdi{
+    font-size: 22px;
+    font-weight: 600;
+    padding:50px  15px 40px;
+}
+.orisdi-shop{
+    font-size: 18px;
+    font-weight: 400;
+}
+.line{
+    color: black;
+    line-height: 10%;
+}
+.orisdi-info{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 120%;
+}
+.orisdi-info:hover{
+    color: var(--blue-color);
+}
+/* footer social */
+.footer-social{
+    position: relative;
+    column-gap: 20px;
+    color:var(--black-color) !important;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.7);
+    right:180px;
+}
+.soci{
+    color: var(--black-color);
+}
+.soci:hover{
+    color: var(--blue-color);
+}
+.imges{
+transform: scale(0.3);
+display: flex;
+justify-content: center;
+}
+
+.footer-text{
+    font-size: 14px;
+    min-height: 1px;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding-right: 58%;
+}
+.footer-text a:hover{
+color: var(--face-color) !important;
+}
+.orisdi-link{
+color: var(--black-color) !important;
+}
+.orisdi-link:hover{
+color: var(--blue-color);
+}

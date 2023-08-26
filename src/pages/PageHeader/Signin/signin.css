@@ -1,0 +1,125 @@
+.Signin {
+background-color: white;
+}
+.close{
+box-shadow: none; 
+
+}
+.Auth-form-container {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+}
+
+.Auth-form {
+width: 600px;
+box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+padding-top: 30px;
+padding-bottom: 20px;
+border-radius: 8px;
+background-color: white;
+}
+
+.Auth-form-content {
+padding-left: 12%;
+padding-right: 12%;
+}
+
+.Auth-form-title {
+text-align: center;
+margin-bottom: 1em;
+font-size: 24px;
+color: rgb(34, 34, 34);
+font-weight: 800;
+}
+.face-signin {
+width: 300px;
+display: block;
+margin: 10px auto;
+direction: rtl !important;
+border: 1px solid var(--face-color);
+}
+
+.face-signin:hover{
+border: 1px solid var(--face-color);
+box-shadow: 1px 1px 1px 1px rgba(68, 128, 218, 0.25) !important;
+}
+.face-signin a {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+box-sizing: border-box;
+line-height: 35px;
+color: var(--face-color)!important;
+}
+.icon-face{
+transform: scale(1.7);
+
+}
+.mail-signin{
+box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, .25);
+color: inherit !important;
+width: 300px;
+display: block;
+margin: 20px auto;
+direction: rtl !important;
+}
+.mail-signin:hover{
+box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(68, 128, 218, 0.25) !important;
+}
+.mail-signin a{
+font-weight: 550;
+display: flex;
+justify-content: space-evenly;
+box-sizing: border-box;
+line-height: 35px;
+color: black;
+padding-left: 50px;
+}
+.icon-mail{
+transform: scale(1.7);
+padding-left: 25px;
+}
+label {
+font-size: 14px;
+font-weight: 600;
+color: rgb(34, 34, 34);
+}
+.form-group{
+width:300px;
+height: 100px;
+translate: -76px;
+}
+.mail,
+.password{
+height: 50px;
+background: inherit;
+font-size: 14px;
+padding: 8px 16px;
+border: 1px solid silver !important;
+box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(106, 109, 114, 0.25) !important;
+}
+.btn-dark{
+line-height: 28px;
+width: 70px;
+translate: -37px 10px;
+}
+.forget{
+translate: -70px 25px;
+font-size: 16px;
+padding: 10px 0px 20px 0px;
+}
+.footer-signin{
+padding: 19px 20px 20px;
+margin-top: 15px;
+text-align: right;
+border-top: 2px solid #e2e2e2;
+}
+.text-end{
+translate: -45px;
+}
+.text-end a:hover{
+color: var(--face-color) !important;
+}

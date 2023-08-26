@@ -1,0 +1,27 @@
+.shipping {
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.all-points{
+    margin-top: 40px;
+    padding: 0 40px ;
+    line-height: 25px;
+    font-size: 16px;
+}
+.points-details a{
+    color: var(--blue-color);
+}
+.points{
+    font-weight: 600;
+}
+.arranging{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.table-1{
+    width: 500px;
+    font-size: 18px;  
+}
+.table-2{
+    width: 96%;
+}
